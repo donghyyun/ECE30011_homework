@@ -110,7 +110,7 @@ void printAdjList(pNode adjList[]){
             printf("|%c|-|-> ", curr -> name);
         }
 
-        printf("nill\n");
+        printf("nil\n");
         if (i != LENGTH - 1)
             printf("\t  |---|\n");
     }
